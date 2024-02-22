@@ -1,5 +1,5 @@
-# overfit - training code generation
-Not ready for use.
+# overfit
+ML training code generator. Not ready for use.
 
 ## Examples
 ```python
