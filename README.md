@@ -4,11 +4,12 @@ Not ready for use.
 ## Examples
 ```python
 from overfit.unsupervised import UnsupervisedPipeline
-fit = SupervisedPipeline(data = data,
-                         target = 'varname',
-                         type = 'regression',
+fit = UnsupervisedPipeline(data = data,
+                         target = 'target_name',
+                         type = 'kmeans',
                          nfolds = 10
                          )
-fit.get_code()
+# fit.get_code(), print
+fit.code_gen() # run
 
 ```
