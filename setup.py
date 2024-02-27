@@ -16,6 +16,7 @@ setup(
         'scikit-learn',
         'matplotlib',
         'pandas',
+        'mkdocstrings',
     ],
     keywords=['python', 'gen', 'generation', 'ml'],
     classifiers=[
