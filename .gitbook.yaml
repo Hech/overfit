@@ -6,3 +6,7 @@ structure:
 
 redirects:
   help: support.md
+
+
+plugins:
+  - gitbook-plugin-edit-link:
